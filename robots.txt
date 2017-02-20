@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Sitemap: http://www.toolsforthecloud.com/sitemap.xml
+Sitemap: http://www.toolsforthecloud.com/sitemap.xml.gz

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools for the Cloud</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/custom.css">
+
+    <style>
+    body { padding-top: 20px}
+
+    .carousel, .item, .active {
+      height:20%;
+    }
+    .carousel-inner {
+      height:100%;
+    }
+    .carousel {
+      margin-bottom: 0px;
+    }
+
+    .jumbotron {
+        background-color: #f3511e; /* orange */
+      };
+
+      form{
+        color: black;
+      };
+.carousel-inner > item > .img-responsive { position: absolute; top:0; bottom:0; }
+    </style>
+
+</head>
+<body class="bgimage">
+
+  <!--- begin Navigation header --->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Tools for the Cloud</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="index.html">Home</icon></a></li>
+            <li class="active"><a href="http://store.toolsforthecloud.com/domains/search.aspx?ci=1775&prog_id=495959">Domains</icon></a></li>
+            <li class="active"><a href="https://www.secureserver.net/hosting/web-hosting_4.aspx?ci=83725&prog_id=495959">Web Hosting</icon></a></li>
+            <li class="active"><a href="https://www.secureserver.net/hosting/website-builder2.aspx?ci=1806&prog_id=495959">Web Design</icon></a></li>
+            <li class="active"><a href="https://www.secureserver.net/email/email-hosting.aspx?ci=12940&prog_id=495959">Email Plans</icon></a></li>
+            <li> <icon="fa fa-sign-in"></icon>Login </li>
+          </ul>
+
+
+      </div>
+
+    </div>
+  </nav>
+  <!--- end Navigation header --->
+
+<!-- begin content -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/slider711.jpg" alt="...">
+      <div class="carousel-caption">
+        <div class="container-fluid">
+      	<h2><span class="fa fa-search fa-4"></span> Find your Domain</h2>
+        <form class="text-center" action="https://www.secureserver.net/domains/search.aspx?checkAvail=1&amp;prog_id=495959&pl_id=495959" method="post">
+          <input type="text" name="domainToCheck" class="lead"/>
+          <select name="TLD">
+            <option selected="selected" value=".COM">.com</option>
+            <option value=".NET">.net</option>
+            <option value=".ORG">.org</option>
+            <option value=".CO">.co</option>
+            <option value=".CA">.ca</option>
+            <option value=".US">.us</option>
+            <option value=".JM">.jm</option>
+            <option value=".GB">.gb</option>
+          </select>
+          <input value="Search" name="submit" type="submit">
+        </form>
+      </div>
+    </div>
+  </div>
+    <div class="item">
+      <img src="images/slider-1-bg.jpg" alt="..." class="img-responsive" class="height">
+      <div class="carousel-caption">
+      	<h3>Host your Domain</h3>
+        <a href="https://www.secureserver.net/email/online-storage.aspx?ci=1796&prog_id=495959"><icon class="glyphicon glyphicon-cloud-upload fa-5x"></icon></a>
+        <a href="https://www.secureserver.net/hosting/dedicated-servers.aspx?ci=1785&prog_id=495959"><icon class="fa fa-windows fa-5x fa-fw"></icon></a>
+        <a href="https://www.secureserver.net/hosting/wordpress.aspx?ci=43232&prog_id=495959"><icon class="fa fa-wordpress fa-5x"></icon></a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/marketdomain.jpg" alt="..." class="img-responsive">
+      <div class="carousel-caption">
+        <a href="https://www.secureserver.net/email/online-storage.aspx?ci=1796&prog_id=495959"><icon class="fa fa-globe fa-5x fa-fw"></icon></a>
+        <a href="https://www.secureserver.net/search-engine/seo-services2.aspx?prog_id=495959&pl_id=495959"><icon class="fa fa-android fa-5x fa-fw"></icon></a>
+        <a href="https://www.secureserver.net/search-engine/seo-services2.aspx?prog_id=495959&pl_id=495959"><icon class="fa fa-apple fa-5x fa-fw"></icon></a>
+        <a href="https://www.secureserver.net/search-engine/seo-services2.aspx?prog_id=495959&pl_id=495959"><icon class="fa fa-laptop fa-5x fa-fw"></icon></a>
+        <h3>Market your Domain</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/slider-office.jpg" alt="..." class="img-responsive">
+      <div class="carousel-caption">
+
+      	<h2>Virtual Office</h2>
+          <a href="https://www.secureserver.net/email/hosted-exchange.aspx?ci=14629&prog_id=495959"><icon class="fa fa-mobile-phone fa-5x fa-fw"></icon></a>
+          <a href="https://www.secureserver.net/email/email-hosting.aspx?ci=12940&prog_id=495959"><icon class="fa fa-envelope-o fa-5x"></icon></a>
+          <a href="https://www.secureserver.net/hosting/wordpress.aspx?ci=43232&prog_id=495959"><icon class="fa fa-wordpress fa-5x fa-fw"></icon></a>
+        <p>
+          Cloud tools that allows you to work from anywhere.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
+
+<!-- begin jumbotron -->
+<div class="jumbotron">
+  <div class="container">
+    <h2>Get a free domain with purchase of hosting and ecommerce shopping cart or website builder</h2>
+      <p>
+        <a href="https://cart.secureserver.net/basket.aspx?ci=5743&prog_id=495959&pl_id=495959" class="btn btn-primary btn-large">Learn more</a>
+      </p>
+  </div>
+
+</div>
+<!-- end jumbotron -->
+
+<!--- end content -->
+<!--- begin footer --->
+<div class="page-header">
+</div>
+
+<div class="container">
+  <div class="footer">
+    <p>&copy; 2016 ToolsfortheCloud</p>
+  </div>
+</div>
+<!--- end footer --->
+
+<!--- Google tracking code --->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-744038-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--- end google tracking code --->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
